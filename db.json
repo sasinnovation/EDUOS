@@ -1,0 +1,1171 @@
+{
+  "users": [
+    {
+      "id": "u-1",
+      "email": "admin@eduos.com",
+      "name": "Dr. Charles Kolawole",
+      "password": "admin123",
+      "role": "ADMIN",
+      "tenantId": "default",
+      "isActive": true,
+      "createdAt": "2026-07-11T09:52:37.839Z"
+    },
+    {
+      "id": "u-2",
+      "email": "teacher@eduos.com",
+      "name": "Mrs. Florence Adebayo",
+      "password": "teacher123",
+      "role": "TEACHER",
+      "tenantId": "default",
+      "isActive": true,
+      "createdAt": "2026-07-11T09:52:37.839Z"
+    },
+    {
+      "id": "u-3",
+      "email": "student@eduos.com",
+      "name": "Tunde Folayan",
+      "password": "student123",
+      "role": "STUDENT",
+      "tenantId": "default",
+      "isActive": true,
+      "createdAt": "2026-07-11T09:52:37.839Z"
+    },
+    {
+      "id": "u-4",
+      "email": "parent@eduos.com",
+      "name": "Chief Folayan",
+      "password": "parent123",
+      "role": "PARENT",
+      "tenantId": "default",
+      "isActive": true,
+      "createdAt": "2026-07-11T09:52:37.839Z"
+    },
+    {
+      "id": "u-5",
+      "email": "adebayosamuel015@gmail.com",
+      "name": "Super Admin",
+      "password": "Hibilero22104",
+      "role": "ADMIN",
+      "tenantId": "default",
+      "isActive": true,
+      "createdAt": "2026-07-11T09:52:37.839Z"
+    },
+    {
+      "id": "u-s-4-bat0d",
+      "email": "sade@email.com",
+      "name": "Sade Ademola",
+      "password": "student123",
+      "role": "STUDENT",
+      "tenantId": "default",
+      "isActive": true,
+      "createdAt": "2026-07-22T10:44:53.173Z",
+      "tenant_id": "default"
+    },
+    {
+      "id": "u-p-2-0odr1",
+      "email": "kunle@email.com",
+      "name": "Dr. Kunle Ademola",
+      "password": "parent3515",
+      "role": "PARENT",
+      "tenantId": "default",
+      "isActive": true,
+      "createdAt": "2026-07-22T10:44:53.177Z",
+      "tenant_id": "default"
+    },
+    {
+      "id": "u-8-kynr0",
+      "email": "jide@eduos",
+      "password": "jide@eduos",
+      "name": "jide jide",
+      "role": "ADMIN",
+      "tenantId": "ten-cxwcub5",
+      "isActive": true,
+      "createdAt": "2026-07-22T10:46:05.837Z",
+      "tenant_id": "ten-cxwcub5"
+    },
+    {
+      "id": "u-1hf08ex",
+      "email": "jide@eduos.com",
+      "name": "Jide",
+      "password": "jide@eduos.com",
+      "role": "ADMIN",
+      "tenantId": "ten-cxwcub5",
+      "isActive": true,
+      "createdAt": "2026-07-22T10:52:49.787Z",
+      "tenant_id": "ten-cxwcub5"
+    },
+    {
+      "id": "u-olm1ka1",
+      "email": "weert@gmail.com",
+      "name": "Weert",
+      "password": "Laterna@12345",
+      "role": "ADMIN",
+      "tenantId": "ten-cxwcub5",
+      "isActive": true,
+      "createdAt": "2026-07-22T13:27:38.420Z",
+      "tenant_id": "ten-cxwcub5"
+    }
+  ],
+  "classes": [
+    {
+      "id": "c-1",
+      "name": "SS3 Science",
+      "room": "Block A - Room 102",
+      "primaryTeacher": "Mrs. Florence Adebayo"
+    },
+    {
+      "id": "c-2",
+      "name": "SS3 Arts",
+      "room": "Block A - Room 104",
+      "primaryTeacher": "Mr. Nelson Chidi"
+    },
+    {
+      "id": "c-3",
+      "name": "SS2 Commerce",
+      "room": "Block B - Room 201",
+      "primaryTeacher": "Miss Sandra Bello"
+    }
+  ],
+  "students": [
+    {
+      "id": "s-1",
+      "registrationNumber": "STU2026001",
+      "name": "Tunde Folayan",
+      "email": "student@eduos.com",
+      "classId": "c-1",
+      "enrollmentDate": "2026-01-10",
+      "attendanceRate": 94.5,
+      "userId": "u-3",
+      "status": "Active"
+    },
+    {
+      "id": "s-2",
+      "registrationNumber": "STU2026002",
+      "name": "Amina Bello",
+      "email": "amina.b@eduos.com",
+      "classId": "c-1",
+      "enrollmentDate": "2026-01-12",
+      "attendanceRate": 88,
+      "status": "Active"
+    },
+    {
+      "id": "s-3",
+      "registrationNumber": "STU2026003",
+      "name": "Chinedu Okafor",
+      "email": "chinedu@eduos.com",
+      "classId": "c-2",
+      "enrollmentDate": "2026-01-15",
+      "attendanceRate": 100,
+      "status": "Active"
+    },
+    {
+      "id": "s-4-bat0d",
+      "registrationNumber": "STU20266839",
+      "name": "Sade Ademola",
+      "email": "sade@email.com",
+      "classId": "c-1",
+      "enrollmentDate": "2026-07-22",
+      "attendanceRate": 100,
+      "userId": "u-s-4-bat0d",
+      "tenantId": "super-admin-bypass",
+      "tenant_id": "super-admin-bypass",
+      "status": "Active",
+      "platform": "CBT PRO",
+      "stream": "",
+      "room": "",
+      "hostel": ""
+    }
+  ],
+  "admissions": [
+    {
+      "id": "adm-1",
+      "studentName": "Sade Ademola",
+      "studentEmail": "sade@email.com",
+      "gradeApplied": "SS1 Science",
+      "parentName": "Dr. Kunle Ademola",
+      "parentEmail": "kunle@email.com",
+      "parentPhone": "+234 803 111 2222",
+      "status": "APPROVED",
+      "submittedAt": "2026-07-01T10:00:00.000Z",
+      "remarks": "pass",
+      "reviewedAt": "2026-07-22T10:44:53.168Z"
+    },
+    {
+      "id": "adm-2",
+      "studentName": "Ibrahim Musa",
+      "studentEmail": "ibrahim@email.com",
+      "gradeApplied": "SS2 Commerce",
+      "parentName": "Alhaji Musa",
+      "parentEmail": "musa@email.com",
+      "parentPhone": "+234 805 333 4444",
+      "status": "APPROVED",
+      "submittedAt": "2026-06-28T09:30:00.000Z",
+      "reviewedAt": "2026-06-29T14:00:00.000Z",
+      "remarks": "Credentials verified. Excellent entrance exam."
+    }
+  ],
+  "attendance": [
+    {
+      "id": "att-1",
+      "studentId": "s-1",
+      "date": "2026-07-05",
+      "status": "PRESENT",
+      "remarks": "Punctual"
+    },
+    {
+      "id": "att-2",
+      "studentId": "s-2",
+      "date": "2026-07-05",
+      "status": "PRESENT",
+      "remarks": "Punctual"
+    },
+    {
+      "id": "att-3",
+      "studentId": "s-3",
+      "date": "2026-07-05",
+      "status": "PRESENT",
+      "remarks": "Punctual"
+    },
+    {
+      "id": "att-4",
+      "studentId": "s-1",
+      "date": "2026-07-06",
+      "status": "PRESENT",
+      "remarks": "On time"
+    },
+    {
+      "id": "att-5",
+      "studentId": "s-2",
+      "date": "2026-07-06",
+      "status": "ABSENT",
+      "remarks": "Parent reported sick leave"
+    },
+    {
+      "id": "att-6",
+      "studentId": "s-3",
+      "date": "2026-07-06",
+      "status": "LATE",
+      "remarks": "Heavy traffic"
+    },
+    {
+      "id": "att-7",
+      "studentId": "s-1",
+      "date": "2026-07-07",
+      "status": "PRESENT",
+      "remarks": ""
+    },
+    {
+      "id": "att-8",
+      "studentId": "s-2",
+      "date": "2026-07-07",
+      "status": "PRESENT",
+      "remarks": "Returned from sick leave"
+    },
+    {
+      "id": "att-9",
+      "studentId": "s-3",
+      "date": "2026-07-07",
+      "status": "PRESENT",
+      "remarks": ""
+    }
+  ],
+  "timetable": [
+    {
+      "id": "t-1",
+      "classId": "c-1",
+      "subject": "Mathematics",
+      "dayOfWeek": "Monday",
+      "startTime": "08:30",
+      "endTime": "10:00",
+      "teacher": "Mrs. Florence Adebayo",
+      "room": "Block A - Room 102"
+    },
+    {
+      "id": "t-2",
+      "classId": "c-1",
+      "subject": "Chemistry",
+      "dayOfWeek": "Monday",
+      "startTime": "10:30",
+      "endTime": "12:00",
+      "teacher": "Dr. Kunle Gabriel",
+      "room": "Science Lab 1"
+    },
+    {
+      "id": "t-3",
+      "classId": "c-1",
+      "subject": "Physics",
+      "dayOfWeek": "Tuesday",
+      "startTime": "08:30",
+      "endTime": "10:00",
+      "teacher": "Mr. Nelson Chidi",
+      "room": "Block A - Room 102"
+    },
+    {
+      "id": "t-4",
+      "classId": "c-2",
+      "subject": "Literature",
+      "dayOfWeek": "Monday",
+      "startTime": "08:30",
+      "endTime": "10:00",
+      "teacher": "Miss Sandra Bello",
+      "room": "Block A - Room 104"
+    }
+  ],
+  "parents": [
+    {
+      "id": "p-1",
+      "name": "Chief Folayan",
+      "email": "parent@eduos.com",
+      "phone": "+234 812 345 6789",
+      "childStudentId": "s-1",
+      "userId": "u-4"
+    },
+    {
+      "id": "p-2-0odr1",
+      "name": "Dr. Kunle Ademola",
+      "email": "kunle@email.com",
+      "phone": "+234 803 111 2222",
+      "childStudentId": "s-4-bat0d",
+      "tempPassword": "parent3515",
+      "userId": "u-p-2-0odr1",
+      "tenantId": "super-admin-bypass",
+      "tenant_id": "super-admin-bypass"
+    }
+  ],
+  "exams": [
+    {
+      "id": "ex-1",
+      "title": "SS3 Mathematics Mid-Term Exam",
+      "description": "Covers Core Algebra, Probability Distributions, and Trigonometric Identities. Formulated for university admission preparation.",
+      "duration": 15,
+      "passingScore": 50,
+      "status": "PUBLISHED",
+      "totalQuestions": 4,
+      "startTime": "2026-07-01T00:00:00.000Z",
+      "endTime": "2026-12-31T23:59:59.000Z"
+    },
+    {
+      "id": "ex-2",
+      "title": "Introduction to General Physics",
+      "description": "Evaluates Newtonian Mechanics, Thermodynamics, and basic Electrical Fields. Ensure you have your calculator ready.",
+      "duration": 30,
+      "passingScore": 40,
+      "status": "PUBLISHED",
+      "totalQuestions": 3,
+      "startTime": "2026-07-01T00:00:00.000Z",
+      "endTime": "2026-12-31T23:59:59.000Z"
+    },
+    {
+      "id": "ex-3",
+      "title": "National WAEC English Mock Trial",
+      "description": "Focuses on comprehension, active versus passive syntax structures, and logical vocabulary pairings.",
+      "duration": 45,
+      "passingScore": 50,
+      "status": "DRAFT",
+      "totalQuestions": 0,
+      "startTime": "2026-08-01T00:00:00.000Z",
+      "endTime": "2026-08-15T23:59:59.000Z"
+    }
+  ],
+  "questions": [
+    {
+      "id": "q-1",
+      "examId": "ex-1",
+      "text": "Solve for x: 3x + 7 = 22.",
+      "type": "MCQ",
+      "options": [
+        "x = 5",
+        "x = 4",
+        "x = 15",
+        "x = 6"
+      ],
+      "answer": "x = 5",
+      "scorePoints": 25
+    },
+    {
+      "id": "q-2",
+      "examId": "ex-1",
+      "text": "The derivative of sin(x) with respect to x is cos(x).",
+      "type": "TRUE_FALSE",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": "True",
+      "scorePoints": 25
+    },
+    {
+      "id": "q-3",
+      "examId": "ex-1",
+      "text": "Which of the following is a prime number?",
+      "type": "MCQ",
+      "options": [
+        "12",
+        "21",
+        "29",
+        "33"
+      ],
+      "answer": "29",
+      "scorePoints": 25
+    },
+    {
+      "id": "q-4",
+      "examId": "ex-1",
+      "text": "Explain the conceptual difference between combination and permutation in your own words.",
+      "type": "ESSAY",
+      "options": [],
+      "answer": "combination order does not matter, permutation order does matter",
+      "scorePoints": 25
+    },
+    {
+      "id": "q-5",
+      "examId": "ex-2",
+      "text": "State Newton's Second Law of Motion.",
+      "type": "MCQ",
+      "options": [
+        "F = m * a",
+        "F = m * v",
+        "E = m * c^2",
+        "P = F / A"
+      ],
+      "answer": "F = m * a",
+      "scorePoints": 34
+    },
+    {
+      "id": "q-6",
+      "examId": "ex-2",
+      "text": "Water boils at 100 degrees Fahrenheit under standard atmospheric pressure.",
+      "type": "TRUE_FALSE",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": "False",
+      "scorePoints": 33
+    },
+    {
+      "id": "q-7",
+      "examId": "ex-2",
+      "text": "Describe the energy conservation principle in a closed thermodynamic system.",
+      "type": "ESSAY",
+      "options": [],
+      "answer": "first law thermodynamics conservation total energy",
+      "scorePoints": 33
+    },
+    {
+      "id": "q-ai-1783765169390-0",
+      "examId": "ex-3",
+      "text": "If the quadratic equation x^2 + kx + 36 = 0 has two equal real roots, what are the possible values of k?",
+      "type": "MCQ",
+      "options": [
+        "k = 12 or k = -12",
+        "k = 6 or k = -6",
+        "k = 18 or k = -18",
+        "k = 36 or k = -36"
+      ],
+      "answer": "k = 12 or k = -12",
+      "scorePoints": 10
+    },
+    {
+      "id": "q-ai-1783765169390-1",
+      "examId": "ex-3",
+      "text": "If the discriminant of a quadratic equation with real coefficients is negative, the equation has two distinct complex conjugate roots.",
+      "type": "TRUE_FALSE",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": "True",
+      "scorePoints": 10
+    },
+    {
+      "id": "q-ai-1783765169390-2",
+      "examId": "ex-3",
+      "text": "Let p and q be the roots of the quadratic equation 2x^2 - 5x + 3 = 0. What is the value of p^2 + q^2?",
+      "type": "MCQ",
+      "options": [
+        "13/4",
+        "19/4",
+        "7/2",
+        "25/4"
+      ],
+      "answer": "13/4",
+      "scorePoints": 10
+    }
+  ],
+  "examAttempts": [
+    {
+      "id": "attp-1",
+      "examId": "ex-1",
+      "studentId": "s-1",
+      "startTime": "2026-07-08T09:00:00.000Z",
+      "submitTime": "2026-07-08T09:12:00.000Z",
+      "answers": {
+        "q-1": "x = 5",
+        "q-2": "True",
+        "q-3": "29",
+        "q-4": "Permutations are ordered lists whereas combinations are unordered collections."
+      },
+      "score": 100,
+      "percentage": 100,
+      "status": "PASS",
+      "gradePoint": "A+",
+      "remarks": "Exceptional performance, absolute mastery of core Algebra and Trigonometric concepts.",
+      "isSubmitted": true,
+      "violationsCount": 0
+    }
+  ],
+  "lessonNotes": [
+    {
+      "id": "note-1",
+      "teacherId": "u-2",
+      "teacherName": "Mrs. Florence Adebayo",
+      "classId": "c-1",
+      "className": "SS3 Science",
+      "subject": "General Mathematics",
+      "topic": "Quadratic Equations",
+      "week": 1,
+      "objectives": "By the end of this lesson, students should be able to solve quadratic equations using the factorization method and the quadratic formula.",
+      "content": "Introduction to Quadratic Equations. Standard Form: ax^2 + bx + c = 0. Solving methods discussed: Factorization, Completing the Square, and Quadratic Formula (popularly known as the 'Almighty Formula' in Nigerian curricula). Practice examples include factoring x^2 - 5x + 6 = 0.",
+      "status": "APPROVED",
+      "feedback": "Well articulated lesson plan. Detailed and aligns perfectly with the Ogun State unified curriculum.",
+      "createdAt": "2026-07-10T08:00:00.000Z",
+      "reviewedAt": "2026-07-10T12:00:00.000Z"
+    },
+    {
+      "id": "note-2",
+      "teacherId": "u-2",
+      "teacherName": "Mrs. Florence Adebayo",
+      "classId": "c-1",
+      "className": "SS3 Science",
+      "subject": "Further Mathematics",
+      "topic": "Matrices & Determinants",
+      "week": 2,
+      "objectives": "Students should learn to compute 2x2 and 3x3 determinants and apply Cramer's rule.",
+      "content": "Definition of matrices, dimension types, operations. Matrix multiplication conditions. Determinants of 2x2 matrices: ad - bc. Introduction to 3x3 cofactor expansion.",
+      "status": "PENDING",
+      "createdAt": "2026-07-12T14:30:00.000Z"
+    }
+  ],
+  "billingInvoices": [
+    {
+      "id": "inv-1002",
+      "studentId": "s-2",
+      "studentName": "Amina Bello",
+      "className": "SS3 Science",
+      "term": "Third Term 2025/2026",
+      "dueDate": "2026-08-01",
+      "status": "PAID",
+      "items": [
+        {
+          "name": "Tuition Fees",
+          "amount": 45000
+        },
+        {
+          "name": "CBT Portal Assessment Access",
+          "amount": 5000
+        },
+        {
+          "name": "Science Laboratory Levy",
+          "amount": 7500
+        },
+        {
+          "name": "PTA Levies",
+          "amount": 2500
+        }
+      ],
+      "totalAmount": 60000,
+      "paidAmount": 60000,
+      "payments": [
+        {
+          "date": "2026-07-11T15:30:00.000Z",
+          "amount": 60000,
+          "method": "Bank Transfer (GTBank)",
+          "reference": "TXN-902138942-OGUN"
+        }
+      ],
+      "createdAt": "2026-07-10T10:00:00.000Z"
+    }
+  ],
+  "tenants": [
+    {
+      "id": "default",
+      "name": "CBT PRO X (EDUOS)",
+      "subdomain": "default",
+      "logoUrl": "",
+      "primaryColor": "#4f46e5",
+      "secondaryColor": "#0d9488",
+      "contactEmail": "admin@eduos.com",
+      "contactPhone": "+234 812 345 6789",
+      "address": "10, Alake Drive, Abeokuta, Ogun State, Nigeria",
+      "status": "active",
+      "plan": "Enterprise",
+      "academicYear": "2025/2026",
+      "createdAt": "2026-07-22T10:06:28.552Z"
+    },
+    {
+      "id": "ten-cxwcub5",
+      "name": "jide",
+      "subdomain": "jide",
+      "logoUrl": "",
+      "backgroundImageUrl": "",
+      "primaryColor": "#4f46e5",
+      "secondaryColor": "#0d9488",
+      "contactEmail": "jide@gmail.com",
+      "contactPhone": "0002768492",
+      "address": "sango ota",
+      "status": "active",
+      "plan": "Enterprise",
+      "academicYear": "2025/2027",
+      "createdAt": "2026-07-22T10:46:05.834Z"
+    },
+    {
+      "id": "ten-cxwcub5",
+      "name": "Ten-cxwcub5 Academy",
+      "subdomain": "ten-cxwcub5",
+      "logoUrl": "",
+      "backgroundImageUrl": "",
+      "primaryColor": "#4f46e5",
+      "secondaryColor": "#0d9488",
+      "contactEmail": "admin@ten-cxwcub5.eduos.com",
+      "contactPhone": "+234 812 345 6789",
+      "address": "School Campus, Nigeria",
+      "status": "active",
+      "plan": "Enterprise",
+      "academicYear": "2025/2026",
+      "createdAt": "2026-07-22T10:52:50.255Z"
+    }
+  ],
+  "behaviors": {
+    "s-1": {
+      "studentId": "s-1",
+      "punctuality": 5,
+      "neatness": 5,
+      "honesty": 4,
+      "peer_relationship": 4,
+      "attentiveness": 5,
+      "handiwork": 3,
+      "sports": 5,
+      "remarks": "Tunde is a highly diligent student. He shows outstanding punctuality, exceptional uniform neatness, and is highly respected by his class peers."
+    },
+    "s-2": {
+      "studentId": "s-2",
+      "punctuality": 4,
+      "neatness": 5,
+      "honesty": 5,
+      "peer_relationship": 5,
+      "attentiveness": 4,
+      "handiwork": 4,
+      "sports": 3,
+      "remarks": "Amina is highly honest and cooperative. Her cleanliness and personal hygiene are exemplary. She is focused and attentive during class exercises."
+    },
+    "s-3": {
+      "studentId": "s-3",
+      "punctuality": 5,
+      "neatness": 4,
+      "honesty": 4,
+      "peer_relationship": 5,
+      "attentiveness": 5,
+      "handiwork": 5,
+      "sports": 4,
+      "remarks": "Chinedu displays spectacular leadership qualities. His handiwork and technical skills are brilliant. Highly active in school activities."
+    }
+  },
+  "hostels": [
+    {
+      "id": "h-1",
+      "name": "Obafemi Awolowo Hall",
+      "gender": "Male",
+      "warden": "Mr. Kunle Adebayo",
+      "capacity": 40,
+      "allocatedStudents": [
+        {
+          "studentId": "s-1",
+          "room": 4,
+          "bed": "A"
+        }
+      ]
+    },
+    {
+      "id": "h-2",
+      "name": "Moremi Hall",
+      "gender": "Female",
+      "warden": "Mrs. Sandra Chidi",
+      "capacity": 32,
+      "allocatedStudents": []
+    },
+    {
+      "id": "h-3",
+      "name": "Herbert Macaulay House",
+      "gender": "Male",
+      "warden": "Mr. Nelson Chidi",
+      "capacity": 48,
+      "allocatedStudents": [
+        {
+          "studentId": "s-3",
+          "room": 2,
+          "bed": "B"
+        }
+      ]
+    }
+  ],
+  "transportRoutes": [
+    {
+      "id": "tr-1",
+      "name": "Abeokuta Express Route",
+      "busNo": "BUS-01",
+      "driver": "Baba Alao",
+      "plate": "LAG-234-AB",
+      "fee": 15000,
+      "students": []
+    },
+    {
+      "id": "tr-2",
+      "name": "Ibafo Hub Route",
+      "busNo": "BUS-02",
+      "driver": "Uncle Jude",
+      "plate": "OG-112-IB",
+      "fee": 18000,
+      "students": [
+        "s-1"
+      ]
+    },
+    {
+      "id": "tr-3",
+      "name": "Mowe Junction Route",
+      "busNo": "BUS-03",
+      "driver": "Mr. Ezekiel",
+      "plate": "MOW-099-JN",
+      "fee": 12000,
+      "students": [
+        "s-2"
+      ]
+    }
+  ],
+  "inventory": [
+    {
+      "id": "i-1",
+      "name": "Official Blazer Suit (Large)",
+      "category": "Uniform",
+      "price": 12000,
+      "stock": 25
+    },
+    {
+      "id": "i-2",
+      "name": "Aco-branded Sports Wear",
+      "category": "Uniform",
+      "price": 4500,
+      "stock": 40
+    },
+    {
+      "id": "i-3",
+      "name": "Comprehensive Mathematics Textbook",
+      "category": "Textbook",
+      "price": 3500,
+      "stock": 50
+    },
+    {
+      "id": "i-4",
+      "name": "New School Physics Textbook (SS3)",
+      "category": "Textbook",
+      "price": 4200,
+      "stock": 30
+    },
+    {
+      "id": "i-5",
+      "name": "Interactive Science Laboratory Kit",
+      "category": "Stationery",
+      "price": 8500,
+      "stock": 15
+    }
+  ],
+  "sales": [
+    {
+      "id": "sl-1",
+      "studentId": "s-1",
+      "itemId": "i-1",
+      "qty": 1,
+      "totalPaid": 12000,
+      "date": "2026-07-10T12:00:00.000Z",
+      "invoiceRef": "INV-ERP-75012"
+    },
+    {
+      "id": "sl-2",
+      "studentId": "s-2",
+      "itemId": "i-3",
+      "qty": 1,
+      "totalPaid": 3500,
+      "date": "2026-07-11T14:30:00.000Z",
+      "invoiceRef": "INV-ERP-81093"
+    }
+  ],
+  "staff": [
+    {
+      "id": "staff-1",
+      "name": "Mrs. Florence Adebayo",
+      "role": "SS3 Science Class Mistress",
+      "baseSalary": 180000,
+      "allowances": 25000,
+      "deductions": 12000,
+      "status": "Active"
+    },
+    {
+      "id": "staff-2",
+      "name": "Mr. Nelson Chidi",
+      "role": "SS3 Arts Head Teacher",
+      "baseSalary": 165000,
+      "allowances": 20000,
+      "deductions": 10000,
+      "status": "Active"
+    },
+    {
+      "id": "staff-3",
+      "name": "Miss Sandra Bello",
+      "role": "SS2 Commerce Coordinator",
+      "baseSalary": 150000,
+      "allowances": 15000,
+      "deductions": 8000,
+      "status": "Active"
+    }
+  ],
+  "payslips": [],
+  "newglobeTeacherGuides": [
+    {
+      "id": "ng-g-1",
+      "subject": "General Mathematics",
+      "classLevel": "SS3",
+      "week": 1,
+      "topic": "Quadratic Equations & Complex Roots",
+      "durationMinutes": 40,
+      "scriptSteps": [
+        {
+          "timeRange": "0:00 - 5:00",
+          "activity": "Warm Up & Review",
+          "script": "Write 2x^2 + 5x + 3 = 0 on the chalkboard. Point to a student. Ask: 'What is the value of coefficients a, b, and c?' Wait for response. Praise. Write down the quadratic formula: x = [-b ± √(b^2 - 4ac)] / 2a."
+        },
+        {
+          "timeRange": "5:00 - 15:00",
+          "activity": "Direct Instruction",
+          "script": "Today, we will solve roots when b^2 - 4ac is negative. Write x^2 + 4 = 0. Explain: 'We subtract 4 from both sides to get x^2 = -4. Because we cannot take the real square root of a negative number, we introduce the imaginary unit, i, where i^2 = -1.'"
+        },
+        {
+          "timeRange": "15:00 - 30:00",
+          "activity": "Guided Practice",
+          "script": "Let's solve x^2 + 2x + 5 = 0 together. Complete the square. Identify roots are -1 + 2i and -1 - 2i. Walk around the classroom. Check pupils' tablets or notebooks to verify their progress."
+        },
+        {
+          "timeRange": "30:00 - 38:00",
+          "activity": "Independent Pupil Work",
+          "script": "Instruct students to solve: x^2 - 4x + 13 = 0 on their tablets. Walk around. Target students having difficulties. Assist them. (Expected answer: 2 ± 3i)"
+        },
+        {
+          "timeRange": "38:00 - 40:00",
+          "activity": "Wrap Up & Homework Assignment",
+          "script": "Ask a volunteer to read their answers. Summarize roots. Assign homework exercises 1 to 5 on textbook page 42."
+        }
+      ]
+    },
+    {
+      "id": "ng-g-2",
+      "subject": "English Language",
+      "classLevel": "SS3",
+      "week": 1,
+      "topic": "Concord Rules in Sentence Construction",
+      "durationMinutes": 40,
+      "scriptSteps": [
+        {
+          "timeRange": "0:00 - 5:00",
+          "activity": "Vocabulary Drills",
+          "script": "Write: 'Every student and teacher ___ present' on the board. Ask pupils to choose between 'is' and 'are'. Give them 10 seconds. Answer is 'is'. Explain singular concord."
+        },
+        {
+          "timeRange": "5:00 - 20:00",
+          "activity": "Concord Rule Analysis",
+          "script": "Rule 1: Collective nouns can take singular or plural verbs. Rule 2: Correlative conjunctions (either...or, neither...nor) take the verb that agrees with the nearer subject. Write examples: 'Neither the principal nor the teachers are here.' or 'Neither the teachers nor the principal is here.'"
+        },
+        {
+          "timeRange": "20:00 - 35:00",
+          "activity": "Interactive Sentence Construction",
+          "script": "Pair up pupils. Instruct each pair to write three sentences using 'as well as', 'no less than', and 'along with'. Walk around to confirm correct verb agreement."
+        },
+        {
+          "timeRange": "35:00 - 40:00",
+          "activity": "Session Synthesis",
+          "script": "Conduct quick-fire questions. Point to random pupils and speak incomplete sentences, forcing them to supply the correct verb form in 2 seconds."
+        }
+      ]
+    }
+  ],
+  "newglobeClassroomSync": [
+    {
+      "id": "cs-1",
+      "className": "SS3 Science",
+      "teacherName": "Mrs. Florence Adebayo",
+      "subject": "General Mathematics",
+      "activeGuideId": "ng-g-1",
+      "currentStepIndex": 2,
+      "elapsedMinutes": 18,
+      "completionRate": 45,
+      "status": "ONLINE",
+      "lastSync": "Just now"
+    },
+    {
+      "id": "cs-2",
+      "className": "SS3 Arts",
+      "teacherName": "Mr. Nelson Chidi",
+      "subject": "English Language",
+      "activeGuideId": "ng-g-2",
+      "currentStepIndex": 1,
+      "elapsedMinutes": 8,
+      "completionRate": 20,
+      "status": "ONLINE",
+      "lastSync": "2 min ago"
+    },
+    {
+      "id": "cs-3",
+      "className": "SS2 Commerce",
+      "teacherName": "Miss Sandra Bello",
+      "subject": "Financial Accounting",
+      "activeGuideId": "none",
+      "currentStepIndex": 0,
+      "elapsedMinutes": 0,
+      "completionRate": 0,
+      "status": "OFFLINE",
+      "lastSync": "1 hour ago"
+    }
+  ],
+  "newglobeAudits": [
+    {
+      "id": "aud-1",
+      "date": "2026-07-13",
+      "auditor": "Supervisor Adejoke",
+      "className": "SS3 Science",
+      "teacherName": "Mrs. Florence Adebayo",
+      "result": "ON-PACE",
+      "auditedGuide": "Quadratic Equations",
+      "remarks": "Teacher is on step 3 of the digital guide, matching lesson script pace. Pupil tablets are active."
+    }
+  ],
+  "newglobePupilAttendance": [
+    {
+      "studentId": "s-1",
+      "date": "2026-07-13",
+      "status": "Present"
+    },
+    {
+      "studentId": "s-2",
+      "date": "2026-07-13",
+      "status": "Present"
+    },
+    {
+      "studentId": "s-3",
+      "date": "2026-07-13",
+      "status": "Absent"
+    }
+  ],
+  "flexisafGradebook": [
+    {
+      "studentId": "s-1",
+      "studentName": "Tunde Olowookere",
+      "subject": "Mathematics",
+      "ca1": 18,
+      "ca2": 17,
+      "exam": 54,
+      "total": 89,
+      "grade": "A1",
+      "status": "PASS"
+    },
+    {
+      "studentId": "s-1",
+      "studentName": "Tunde Olowookere",
+      "subject": "English Language",
+      "ca1": 15,
+      "ca2": 16,
+      "exam": 48,
+      "total": 79,
+      "grade": "B2",
+      "status": "PASS"
+    },
+    {
+      "studentId": "s-2",
+      "studentName": "Amina Yusuf",
+      "subject": "Mathematics",
+      "ca1": 14,
+      "ca2": 15,
+      "exam": 42,
+      "total": 71,
+      "grade": "B3",
+      "status": "PASS"
+    },
+    {
+      "studentId": "s-2",
+      "studentName": "Amina Yusuf",
+      "subject": "English Language",
+      "ca1": 19,
+      "ca2": 18,
+      "exam": 55,
+      "total": 92,
+      "grade": "A1",
+      "status": "PASS"
+    },
+    {
+      "studentId": "s-3",
+      "studentName": "Chinedu Okafor",
+      "subject": "Mathematics",
+      "ca1": 12,
+      "ca2": 11,
+      "exam": 35,
+      "total": 58,
+      "grade": "C5",
+      "status": "PASS"
+    },
+    {
+      "studentId": "s-3",
+      "studentName": "Chinedu Okafor",
+      "subject": "English Language",
+      "ca1": 14,
+      "ca2": 13,
+      "exam": 41,
+      "total": 68,
+      "grade": "B3",
+      "status": "PASS"
+    }
+  ],
+  "flexisafBills": [
+    {
+      "studentId": "s-1",
+      "studentName": "Tunde Olowookere",
+      "term": "Third Term 2026",
+      "description": "Tuition Fee Balance",
+      "total": 120000,
+      "paid": 80000,
+      "balance": 40000,
+      "status": "PARTIAL"
+    },
+    {
+      "studentId": "s-2",
+      "studentName": "Amina Yusuf",
+      "term": "Third Term 2026",
+      "description": "Tuition Fee Balance",
+      "total": 120000,
+      "paid": 120000,
+      "balance": 0,
+      "status": "PAID"
+    },
+    {
+      "studentId": "s-3",
+      "studentName": "Chinedu Okafor",
+      "term": "Third Term 2026",
+      "description": "Tuition Fee Balance",
+      "total": 120000,
+      "paid": 0,
+      "balance": 120000,
+      "status": "UNPAID"
+    }
+  ],
+  "flexisafLessonReviews": [
+    {
+      "id": "lr-1",
+      "teacherName": "Mrs. Florence Adebayo",
+      "className": "SS3 Science",
+      "subject": "General Mathematics",
+      "topic": "Quadratic Equation & Imaginary Root",
+      "week": 1,
+      "submittedAt": "2026-07-10T09:00:00.000Z",
+      "status": "APPROVED",
+      "feedback": "Excellent lesson structure. High emphasis on cognitive assessments is highly appreciated. Approved for delivery."
+    },
+    {
+      "id": "lr-2",
+      "teacherName": "Mr. Nelson Chidi",
+      "className": "SS3 Arts",
+      "subject": "English Language",
+      "topic": "Concord Rules in Sentences",
+      "week": 1,
+      "submittedAt": "2026-07-11T10:15:00.000Z",
+      "status": "APPROVED",
+      "feedback": "Strong vocabulary drills, excellent interactive work. Ready for delivery."
+    },
+    {
+      "id": "lr-3",
+      "teacherName": "Miss Sandra Bello",
+      "className": "SS2 Commerce",
+      "subject": "Financial Accounting",
+      "topic": "Double Entry Ledger Posting",
+      "week": 2,
+      "submittedAt": "2026-07-12T15:30:00.000Z",
+      "status": "PENDING",
+      "feedback": ""
+    }
+  ],
+  "flexisafTimetable": [
+    {
+      "day": "Monday",
+      "slots": [
+        {
+          "time": "08:00 - 09:00",
+          "subject": "Mathematics",
+          "teacher": "Mrs. Florence Adebayo",
+          "room": "Room A"
+        },
+        {
+          "time": "09:00 - 10:00",
+          "subject": "English Language",
+          "teacher": "Mr. Nelson Chidi",
+          "room": "Room B"
+        },
+        {
+          "time": "10:00 - 10:30",
+          "subject": "Recess",
+          "teacher": "None",
+          "room": "Playground"
+        },
+        {
+          "time": "10:30 - 11:30",
+          "subject": "Basic Science",
+          "teacher": "Miss Sandra Bello",
+          "room": "Lab 1"
+        }
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "slots": [
+        {
+          "time": "08:00 - 09:00",
+          "subject": "English Language",
+          "teacher": "Mr. Nelson Chidi",
+          "room": "Room B"
+        },
+        {
+          "time": "09:00 - 10:00",
+          "subject": "Mathematics",
+          "teacher": "Mrs. Florence Adebayo",
+          "room": "Room A"
+        },
+        {
+          "time": "10:00 - 10:30",
+          "subject": "Recess",
+          "teacher": "None",
+          "room": "Playground"
+        },
+        {
+          "time": "10:30 - 11:30",
+          "subject": "Geography",
+          "teacher": "Mr. Ezekiel",
+          "room": "Room C"
+        }
+      ]
+    }
+  ],
+  "billingCategories": [
+    "Tuition Fees",
+    "Exam Fees",
+    "Textbooks",
+    "Uniforms",
+    "Laboratory Levy",
+    "Sports Levy",
+    "Library Fee",
+    "ICT"
+  ]
+}

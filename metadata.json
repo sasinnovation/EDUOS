@@ -1,0 +1,6 @@
+{
+  "name": "CBT PRO X",
+  "description": "An AI-powered Educational Operating System (EduOS) integrating CBT assessment and school ERP administration.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
